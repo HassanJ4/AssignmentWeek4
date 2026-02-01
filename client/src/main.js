@@ -1,6 +1,6 @@
 const display = document.getElementById('app')
 const form = document.getElementById('form')
-const baseURL = 'http://localhost:4242'
+const baseURL = 'https://assignmentweek4-ybax.onrender.com'
 
 async function fetchData() {
   const response = await fetch(`${baseURL}/messages`)

@@ -33,9 +33,9 @@ app.post('/messages', async (req, res) => {
     res.status(200).json({message: "added message"})
 })
 
+const PORT = process.env.PORT || 4242
 
-
-app.listen(4242, () => {
-    console.log(`Server started on port http://localhost:4242`)
+app.listen(PORT, () => {
+    console.log(`Server started on port ${PORT}`)
 })
 
