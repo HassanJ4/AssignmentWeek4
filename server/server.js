@@ -16,7 +16,7 @@ const db = new pg.Pool({
 })
 
 app.get('/', (req, res) => {
-    res.send('Hell')
+    res.send('Hotel Guestbook API is running. Use /messages to view messages.')
 })
 
 app.get('/messages', async (req, res) => {
