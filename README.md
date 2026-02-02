@@ -28,13 +28,13 @@ This is a full-stack guestbook where users can submit messages that are stored i
 # How to load the page locally
 
 - Server
-cd server
-node --watch server
+- cd server
+- node --watch server
 Server runs on `http://localhost:4242`
 
 - Client 
-cd client
-npm run dev
+- cd client
+- npm run dev
 Client runs on `http://localhost:5173`
 
 Database
