@@ -30,12 +30,12 @@ This is a full-stack guestbook where users can submit messages that are stored i
 - Server
 - cd server
 - node --watch server
-Server runs on `http://localhost:4242`
+- Server runs on `http://localhost:4242`
 
 - Client 
 - cd client
 - npm run dev
-Client runs on `http://localhost:5173`
+- Client runs on `http://localhost:5173`
 
 Database
 A screenshot of the messages table in Supabase
